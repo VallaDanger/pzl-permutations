@@ -17,7 +17,7 @@ public class App {
         final PuzzleExecutor<Collection<String>> executor = PuzzleExecutor.from(Permutations.of("abc"));
 	    final TimedPuzzleSolution<Collection<String>> solution = executor.executeTimed();
 		
-    	LOGGER.log(Level.INFO, "IsIsomorphic [ time: {0} ]: {1}", new Object[] { solution.timeElapsed(), solution.get() });
+    	LOGGER.log(Level.INFO, "Permutations [ time: {0} ]: {1}", new Object[] { solution.timeElapsed(), solution.get() });
 	    
     }
     
